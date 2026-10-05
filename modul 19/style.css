@@ -1,0 +1,33 @@
+body{
+    font-family: 'Papyrus', 'Herculanum', 'Copperplate', 'Garamond', fantasy;
+    background-color:lightblue;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.card{
+    
+    display:flex;
+    flex-direction: column;
+    border:3px solid navy;
+    border-radius:30px;
+    align-items:center;
+    justify-items: center;
+    width:300px;
+    text-align:center;
+    padding:20px;
+    
+}
+.card button{
+    background-color:lightgreen;
+    border:5px solid black;
+    border-radius: 20px;
+}
+.card img{
+    border:5px solid black;
+    border-radius:20px;
+}
