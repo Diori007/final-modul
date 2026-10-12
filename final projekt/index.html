@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natyra - Bukuria e Botës</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">NATYRA<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Ballina</a></li>
+                <li><a href="#about">Rreth Nesh</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Kontakti</a></li>
+                <li><a href="kujdesi.html">Kujdesi për Natyrën</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">BUKURIA QË NA RRETHON</p>
+            <h1>Natyra është <span>shtëpia</span> jonë.</h1>
+            <p>
+                Nga malet e larta deri te pyjet e gjelbra,
+                natyra na ofron bukuri, qetësi dhe jetë.
+                Është detyra jonë ta mbrojmë atë.
+            </p>
+            <a href="#about" class="btn">Zbulo më shumë</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section">
+        <div class="section-heading">
+            <p class="subtitle">NJË BOTË E MREKULLUESHME</p>
+            <h2>Rreth Natyrës</h2>
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Një pasuri që duhet ta ruajmë</h3>
+                <p>
+                    Natyra është pjesë e rëndësishme e jetës sonë.
+                    Ajo na siguron ajër të pastër, ujë, ushqim dhe
+                    hapësira ku mund të pushojmë e të gjejmë qetësi.
+                </p>
+                <p>
+                    Megjithatë, ndotja dhe shkatërrimi i mjedisit
+                    po e rrezikojnë bukurinë e saj. Edhe veprimet
+                    e vogla, si mbjellja e një peme dhe hedhja e
+                    mbeturinave në vendin e duhur, mund të bëjnë
+                    një ndryshim të madh.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="img/natyra1.png" alt="Peizazh i bukur natyror">
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery section">
+        <div class="section-heading">
+            <p class="subtitle">BUKURI NË ÇDO KËND</p>
+            <h2>Galeria e Natyrës</h2>
+            <p class="heading-description">
+                Disa pamje që na kujtojnë sa e bukur është bota.
+            </p>
+        </div>
+
+        <div class="gallery-container">
+
+            <div class="gallery-card">
+                <div class="image-box">
+                    <img src="img/natyra1.png" alt="Pamje natyrore">
+                </div>
+                <div class="card-content">
+                    <h3>Qetësia e Natyrës</h3>
+                    <p>
+                        Natyra na ndihmon të largohemi nga
+                        zhurma dhe stresi i përditshëm.
+                    </p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="image-box">
+                    <img src="img/natyra2.png" alt="Peizazh natyror">
+                </div>
+                <div class="card-content">
+                    <h3>Bukuria e Peizazheve</h3>
+                    <p>
+                        Malet, pyjet dhe fushat krijojnë pamje
+                        që ia vlen t'i ruajmë.
+                    </p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="image-box">
+                    <img src="img/natyra3.png" alt="Pamje e bukur e natyrës">
+                </div>
+                <div class="card-content">
+                    <h3>Jeta dhe Gjelbërimi</h3>
+                    <p>
+                        Çdo bimë dhe çdo pemë ka rëndësi
+                        për ekuilibrin e mjedisit.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section">
+        <div class="section-heading">
+            <p class="subtitle">BËHU PJESË E NDRYSHIMIT</p>
+            <h2>Kontakti</h2>
+            <p class="heading-description">
+                Ke ndonjë ide për mbrojtjen e natyrës?
+                Do të ishte kënaqësi ta dëgjonim.
+            </p>
+        </div>
+
+        <div class="contact-content">
+            <form class="contact-form"
+                  action="mailto:email@example.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <label for="name">Emri dhe mbiemri</label>
+                <input type="text" id="name" name="Emri"
+                       placeholder="Shkruaj emrin tënd" required>
+
+                <label for="email">Email-i</label>
+                <input type="email" id="email" name="Email"
+                       placeholder="Shkruaj email-in tënd" required>
+
+                <label for="message">Mesazhi</label>
+                <textarea id="message" name="Mesazhi" rows="5"
+                          placeholder="Shkruaj mesazhin tënd..."
+                          required></textarea>
+
+                <button type="submit" class="btn">Dërgo mesazhin</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home" class="logo">NATYRA<span>.</span></a>
+        <p>Ta duam natyrën, ta mbrojmë të ardhmen.</p>
+        <p class="copyright">
+            &copy; 2026 Natyra. Projekt shkollor.
+        </p>
+    </footer>
+
+</body>
+</html>
+
+
