@@ -1,5 +1,5 @@
 
-/* GENERAL SETTINGS */
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ img {
     object-fit: cover;
 }
 
-/* NAVBAR */
+
 header {
     background-color: rgba(248, 248, 242, 0.97);
     position: sticky;
@@ -83,7 +83,7 @@ header {
     color: #83a96b;
 }
 
-/* HERO SECTION */
+
 .care-hero {
     min-height: 500px;
     padding: 90px 8%;
@@ -123,7 +123,7 @@ header {
     color: #eeeeee;
 }
 
-/* BUTTON */
+
 .btn {
     display: inline-block;
     background-color: var(--green);
@@ -147,7 +147,7 @@ header {
     transform: translateY(-3px);
 }
 
-/* GENERAL SECTIONS */
+
 .section {
     padding: 80px 8%;
     scroll-margin-top: 80px;
@@ -170,7 +170,7 @@ header {
     color: #69746b;
 }
 
-/* INTRODUCTION */
+
 .intro {
     background-color: white;
 }
@@ -213,7 +213,7 @@ header {
     color: #59645b;
 }
 
-/* TIPS CARDS */
+
 .tips {
     background-color: var(--light-green);
 }
@@ -246,7 +246,7 @@ header {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* IMAGE TRANSITIONS */
+
 .tip-image {
     height: 220px;
     overflow: hidden;
@@ -285,7 +285,7 @@ header {
     font-size: 15px;
 }
 
-/* FINAL MESSAGE */
+
 .final-message {
     padding: 75px 8%;
     background-color: var(--dark-green);
@@ -313,7 +313,7 @@ header {
     border-color: white;
 }
 
-/* FOOTER */
+
 .footer {
     background-color: #102e20;
     color: white;
@@ -338,7 +338,7 @@ header {
     color: #b8c7b8;
 }
 
-/* TABLETS */
+
 @media (max-width: 900px) {
     .navbar {
         padding: 16px 20px;
@@ -357,7 +357,7 @@ header {
     }
 }
 
-/* PHONES */
+
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
@@ -395,7 +395,7 @@ header {
         font-size: 28px;
     }
 
-    /* Stack the introduction image and text */
+    
     .intro-content {
         flex-direction: column;
         align-items: stretch;
@@ -406,7 +406,7 @@ header {
         height: 250px;
     }
 
-    /* Stack the cards into a single column */
+    
     .tips-container {
         flex-direction: column;
         align-items: center;
@@ -431,7 +431,7 @@ header {
     }
 }
 
-/* REDUCED MOTION */
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,

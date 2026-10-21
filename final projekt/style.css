@@ -1,5 +1,5 @@
 
-/* GENERAL SETTINGS */
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ img {
     object-fit: cover;
 }
 
-/* NAVIGATION BAR */
+
 header {
     background-color: rgba(248, 248, 242, 0.97);
     position: sticky;
@@ -81,7 +81,7 @@ header {
     color: #83a96b;
 }
 
-/* HOME SECTION */
+
 .hero {
     min-height: 580px;
     padding: 100px 8%;
@@ -126,7 +126,7 @@ header {
     font-size: 17px;
 }
 
-/* BUTTON */
+
 .btn {
     display: inline-block;
     background-color: var(--green);
@@ -149,7 +149,7 @@ header {
     transform: translateY(-3px);
 }
 
-/* GENERAL SECTION SETTINGS */
+
 .section {
     padding: 85px 8%;
     scroll-margin-top: 75px;
@@ -172,7 +172,7 @@ header {
     color: #69746b;
 }
 
-/* ABOUT SECTION */
+
 .about {
     background-color: white;
 }
@@ -215,7 +215,7 @@ header {
     transform: scale(1.06);
 }
 
-/* GALLERY SECTION */
+
 .gallery {
     background-color: var(--light-green);
 }
@@ -224,7 +224,7 @@ header {
     max-width: 1200px;
     margin: auto;
 
-    /* FLEXBOX: images in a row on larger screens */
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -252,7 +252,7 @@ header {
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.13);
 }
 
-/* IMAGE TRANSITIONS */
+
 .image-box {
     height: 240px;
     overflow: hidden;
@@ -284,7 +284,7 @@ header {
     font-size: 15px;
 }
 
-/* CONTACT SECTION */
+
 .contact {
     background-color: white;
 }
@@ -338,7 +338,7 @@ header {
     margin-top: 12px;
 }
 
-/* FOOTER */
+
 .footer {
     background-color: var(--dark-green);
     color: white;
@@ -363,7 +363,7 @@ header {
     color: #b8c7b8;
 }
 
-/* RESPONSIVE DESIGN: TABLETS */
+
 @media (max-width: 900px) {
     .navbar {
         padding: 16px 22px;
@@ -390,9 +390,9 @@ header {
     }
 }
 
-/* RESPONSIVE DESIGN: PHONES */
+
 @media (max-width: 600px) {
-    /* Navbar adapts to smaller screens */
+   
     .navbar {
         flex-direction: column;
         gap: 12px;
@@ -413,7 +413,7 @@ header {
         font-size: 14px;
     }
 
-    /* Home section */
+    
     .hero {
         min-height: 500px;
         padding: 70px 7%;
@@ -428,7 +428,7 @@ header {
         font-size: 15px;
     }
 
-    /* About section becomes a column */
+    
     .section {
         padding: 55px 6%;
     }
@@ -451,7 +451,7 @@ header {
         height: 260px;
     }
 
-    /* Gallery cards stack vertically on phones */
+    
     .gallery-container {
         flex-direction: column;
         align-items: center;
@@ -468,7 +468,7 @@ header {
         height: 230px;
     }
 
-    /* Contact form */
+   
     .contact-form .btn {
         width: 100%;
     }
@@ -478,7 +478,7 @@ header {
     }
 }
 
-/* REDUCED MOTION ACCESSIBILITY */
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
